@@ -22,6 +22,12 @@ An app was created on Dropbox and 7 folders representing the 7 categories of res
 - Clone the repository
 - Create a python virtual environment using pipenv
 - Install required libraries using pipenv install
+- Create a Dropbox application and create an app by the name "TechBank". Under the main app folder(TechBank), create 7 folders namely: 'FrontendDevelopment', 'BackendDevelopment', 'DevOps', 'UI-UX', 'ProductMgt', 'CareerDevelopment', 'MobileDevelopment'. These are the folders that will hold the different categories of resources. For more information on how to create a Dropbox app, refer to the documentation [here](https://www.dropbox.com/developers/documentation/python#tutorial). Your app should look like this:
+
+![](./app_example.png)
+
+- Create a .env file in root directory and add a variable to hold the app token .ie.
+DBX_ACCESS_TOKEN = '*your token*'
 - Run 'python manage.py runserver' to start the server on your local machine
 - Run 'python manage.py test resources' to run the tests
 
